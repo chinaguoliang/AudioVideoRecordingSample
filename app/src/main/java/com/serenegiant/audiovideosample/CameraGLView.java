@@ -347,8 +347,10 @@ public final class CameraGLView extends GLSurfaceView {
 				requesrUpdateTex = false;
 				// update texture(came from camera)
 				mSTexture.updateTexImage();
+				//chen
 				// get texture matrix
 				mSTexture.getTransformMatrix(mStMatrix);
+
 			}
 			// draw to preview screen
 			mDrawer.draw(hTex, mStMatrix);
